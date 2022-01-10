@@ -16,7 +16,7 @@ services:
     depends_on:
     - mysql
     environment:
-    - TZ=Asia/Kolkata
+    - TZ=Asia/Tokyo
 
     - DB_ADAPTER=mysql2
     - DB_HOST=mysql
