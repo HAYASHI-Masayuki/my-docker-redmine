@@ -60,5 +60,5 @@ services:
     ports:
     - "10083:80"
     volumes:
-    - ./redmine_mysql:/home/redmine/data
+    - ./data:/home/redmine/data
     - ./logs:/var/log/redmine
