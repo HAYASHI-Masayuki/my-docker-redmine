@@ -9,6 +9,11 @@
     background-color: #006c6c
 }
 
+#wrapper,
+#project-jump .drdn-trigger {
+    overflow: clip;
+}
+
 /**
  * 折り返し防止
  *
