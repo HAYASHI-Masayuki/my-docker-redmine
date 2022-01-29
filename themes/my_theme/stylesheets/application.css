@@ -10,7 +10,8 @@
 }
 
 #wrapper,
-#project-jump .drdn-trigger {
+#project-jump .drdn-trigger,
+.icon-only {
     overflow: clip;
 }
 
