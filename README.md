@@ -9,13 +9,13 @@ https://github.com/sameersbn/docker-redmine ベース。
 ### データベース移行
 
 ```
-sudo docker-compose exec -T mysql mysql redmine_production < database.sql
+sudo docker compose exec -T mysql mysql redmine_production < database.sql
 ```
 
 さらに、データベースのバージョンが違う場合は、
 
 ```
-sudo docker-compose exec redmine sudo -u redmine -H bundle exec rake db:migrate RAILS_ENV=production
+sudo docker compose exec redmine sudo -u redmine -H bundle exec rake db:migrate RAILS_ENV=production
 ```
 
 
